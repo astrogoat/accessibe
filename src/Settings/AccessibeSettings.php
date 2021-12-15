@@ -3,7 +3,6 @@
 namespace Astrogoat\Accessibe\Settings;
 
 use Helix\Lego\Settings\AppSettings;
-use Astrogoat\Accessibe\Actions\AccessibeAction;
 
 class AccessibeSettings extends AppSettings
 {
@@ -14,7 +13,7 @@ class AccessibeSettings extends AppSettings
         'url' => ['required', 'url'],
         // 'access_token' => ['required'],
     ];
-    
+
     public function description(): string
     {
         return 'Interact with Accessibe.';

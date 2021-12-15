@@ -2,9 +2,9 @@
 
 namespace Astrogoat\Accessibe\Tests;
 
+use Astrogoat\Accessibe\AccessibeServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Astrogoat\Accessibe\AccessibeServiceProvider;
 
 class TestCase extends Orchestra
 {
