@@ -1,26 +1,23 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Astrogoat\Accessibe;
 
 use Helix\Lego\Apps\App;
 use Helix\Lego\LegoManager;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Settings\SkeletonSettings;
+use Astrogoat\Accessibe\Settings\AccessibeSettings;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class AccessibeServiceProvider extends PackageServiceProvider
 {
     public function registerApp(App $app)
     {
         return $app
-            ->name('skeleton')
-            ->settings(SkeletonSettings::class)
+            ->name('accessibe')
+            ->settings(AccessibeSettings::class)
             ->migrations([
-                __DIR__ . '/../database/migrations',
                 __DIR__ . '/../database/migrations/settings',
-            ])
-            ->backendRoutes(__DIR__.'/../routes/backend.php')
-            ->frontendRoutes(__DIR__.'/../routes/frontend.php');
+            ]);
     }
 
     public function registeringPackage()
@@ -32,6 +29,6 @@ class SkeletonServiceProvider extends PackageServiceProvider
 
     public function configurePackage(Package $package): void
     {
-        $package->name('skeleton')->hasViews();
+        $package->name('accessibe')->hasViews();
     }
 }

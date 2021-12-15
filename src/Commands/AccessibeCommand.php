@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Astrogoat\Accessibe\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class AccessibeCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'accessibe';
 
     public $description = 'My command';
 
