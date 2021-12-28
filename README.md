@@ -1,4 +1,4 @@
-# A Accessibe app for Stratum
+# A Accessibe app for Strata
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/astrogoat/accessibe.svg?style=flat-square)](https://packagist.org/packages/astrogoat/accessibe)
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/astrogoat/accessibe/run-tests?label=tests)](https://github.com/astrogoat/accessibe/actions?query=workflow%3Arun-tests+branch%3Amain)
@@ -26,9 +26,10 @@ composer require astrogoat/accessibe
 
 ## Usage
 
+Include it in you Blade file.
+
 ```php
-$accessibe = new Astrogoat\Accessibe();
-echo $accessibe->echoPhrase('Hello, Astrogoat!');
+@include('accessibe::script')
 ```
 
 ## Testing
