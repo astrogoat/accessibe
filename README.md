@@ -42,12 +42,8 @@ Please review [our security policy](../../security/policy) on how to report secu
 ## Credits
 
 - [Megan](https://github.com/astrogoat)
+- [Kristoffer Tonning](https://github.com/tonning)
 - [All Contributors](../../contributors)
-
-This accessibe package is forked from the awesome [Spatie accessibe package](https://github.com/spatie/package-accessibe-laravel#support-us). Please go support them if you can.
-
-
-
 
 ## License
 
