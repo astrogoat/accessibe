@@ -19,7 +19,7 @@ class AccessibeServiceProvider extends PackageServiceProvider
             ->migrations([
                 __DIR__ . '/../database/migrations/settings',
             ])->includeFrontendViews(function (IncludeFrontendViews $views) {
-                return $views->addToHead(['accessibe::script']);
+                return $views->addToEnd(['accessibe::script']);
             });
     }
 
