@@ -1,5 +1,8 @@
-@if (Astrogoat\Accessibe\Settings\AccessibeSettings::isEnabled() &&
-    ($url = settings('Astrogoat\\Accessibe\\Settings\\AccessibeSettings', 'url')))
+@if (
+    Astrogoat\Accessibe\Settings\AccessibeSettings::isEnabled() &&
+    ($url = settings('Astrogoat\\Accessibe\\Settings\\AccessibeSettings', 'url'))
+)
+    <!-- [Accessibe] Start -->
     <script>
         (function() {
             var s = document.createElement('script');
@@ -37,4 +40,5 @@
             h.appendChild(s);
         })();
     </script>
+    <!-- [Accessibe] End -->
 @endif
