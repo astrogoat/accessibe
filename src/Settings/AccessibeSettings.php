@@ -7,11 +7,9 @@ use Helix\Lego\Settings\AppSettings;
 class AccessibeSettings extends AppSettings
 {
     public string $url;
-    // public string $access_token;
 
     protected array $rules = [
         'url' => ['required', 'url'],
-        // 'access_token' => ['required'],
     ];
 
     public function description(): string
