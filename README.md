@@ -42,7 +42,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 ## Credits
 
 - [Megan](https://github.com/astrogoat)
-- [Kristoffer Tonning](https://github.com/tonning)
+- [Laura Tonning](https://github.com/tonning)
 - [All Contributors](../../contributors)
 
 ## License
